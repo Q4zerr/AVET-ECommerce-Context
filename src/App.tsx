@@ -19,11 +19,11 @@ const cheeses = [
   {
     name: "Gouda",
     photo: "../cheese.jpg",
-    isAdmin: true,
   },
   {
     name: "Emmental",
     photo: "../cheese.jpg",
+    isAdmin: true,
   },
 ]
 

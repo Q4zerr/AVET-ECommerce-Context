@@ -17,7 +17,7 @@ const Item = ({ cheese } : Props) => {
 
     if(cheese.isAdmin === true && user?.isAdmin !== true){
         return(
-            <div>
+            <div className="itemCheese notAuth">
                 You're not admin
             </div>
         );
